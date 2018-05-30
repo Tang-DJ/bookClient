@@ -1,111 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-<head><title>图书管理系统后台-角色管理</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" href="css/jquery-ui.css"/>
-    <link rel="stylesheet" href="css/uniform.css"/>
-    <link rel="stylesheet" href="css/select2.css"/>
-    <link rel="stylesheet" href="css/unicorn.main.css"/>
-    <link rel="stylesheet" href="css/unicorn.grey.css" class="skin-color"/>
+<html>
+<head>
+ <title>角色管理</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="stylesheet" href="resource/bootstrap-3.3.7-dist/css/bootstrap.css">
+		<link rel="stylesheet" href="resource/bootstrap-table/bootstrap-table.css">
+
+		<script src="resource/js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+
+		<script src="js/jquery.easydropdown.js"></script>
+		<script src="js/cbpViewModeSwitch.js" type="text/javascript"></script>
+		<script src="resource/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<script src="resource/bootstrap-table/bootstrap-table.js"></script>
+		<script src="resource/bootstrap-table/bootstrap-table-zh-CN.js"></script>
+		<script src="js/role.js"></script>
+
 </head>
 <body>
-<div id="header"><h1><a href="./dashboard.html">Unicorn Admin</a></h1></div>
-<div id="search"><input type="text" placeholder="搜索">
-    <button type="submit" class="tip-right" title="Search"><i class="icon-search icon-white"></i></button>
+	<div class="header" id="home">
+		 <div class="container">
+		   <div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+		</div>
+			<div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a class="active" href="role.html">角色管理<lable><img src="images/line.png"></lable></a></li>
+					<li><a href="user.html">用户管理</a></li>
+					<li><a href="book.html">图书管理</a></li>
+					<li><a href="records.html">借阅管理</a></li>
+					</ul>
+					</div>
+		<script>
+			$("span.menu").click(function(){
+				$(".top-menu ul").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(1000);
+						});
+					});
+				</script>
+		<!-- script-for-nav -->
+		<!-- /top-nav -->
+                   <div class="clearfix"></div>
+				</div>
+		 </div>
+		  <!-- header-section-ends -->
+<div class="banner">
+	<div class="container">
+		<h3>角色管理</h3>
+	</div>
 </div>
-<div id="user-nav" class="navbar navbar-inverse">
-    <ul class="nav btn-group">
-        <li class="btn btn-inverse"><a title="" href="#"><i class="icon icon-user"></i> <span
-                class="text">Profile</span></a></li>
-        <li class="btn btn-inverse dropdown" id="menu-messages">
-            <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle">
-                <i class="icon icon-envelope"></i> <span class="text">Messages</span> <span
-                class="label label-important">5</span> <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a class="sAdd" title="" href="#">新信息</a></li>
-                <li><a class="sInbox" title="" href="#">inbox</a></li>
-                <li><a class="sOutbox" title="" href="#">outbox</a></li>
-                <li><a class="sTrash" title="" href="#">trash</a></li>
-            </ul>
-        </li>
-        <li class="btn btn-inverse"><a title="" href="#"><i class="icon icon-cog"></i> <span
-                class="text">Settings</span></a></li>
-        <li class="btn btn-inverse">
-            <a title="" href="login.html"><i class="icon icon-share-alt"></i>
-                <span class="text">退出登录</span></a></li>
-    </ul>
-</div>
-<div id="sidebar"><a href="#" class="visible-phone">
-    <i class="icon icon-th-list"></i> Tables</a>
-    <ul>
-        <li><a href="index.html"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
-        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i> <span>Form elements</span>
-            <span class="label">3</span></a>
-            <ul>
-                <li><a href="form-common.html">Common elements</a></li>
-                <li><a href="form-validation.html">Validation</a></li>
-                <li><a href="form-wizard.html">Wizard</a></li>
-            </ul>
-        </li>
-        <li><a href="buttons.html"><i class="icon icon-tint"></i> <span>Buttons &amp; icons</span></a></li>
-        <li><a href="interface.html"><i class="icon icon-pencil"></i> <span>Interface elements</span></a></li>
-        <li><a href="tables.html"><i class="icon icon-th"></i> <span>Tables</span></a></li>
-        <li><a href="grid.html"><i class="icon icon-th-list"></i> <span>Grid Layout</span></a></li>
-        <li class="submenu"><a href="#"><i class="icon icon-file"></i>
-            <span>Sample pages</span>
-            <span class="label">4</span></a>
-            <ul>
-                <li><a href="invoice.html">Invioce</a></li>
-                <li><a href="chat.html">Support chat</a></li>
-                <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </li>
-        <li><a href="charts.html"><i class="icon icon-signal"></i> <span>Charts &amp; graphs</span></a></li>
-        <li><a href="widgets.html"><i class="icon icon-inbox"></i> <span>Widgets</span></a></li>
-        <li class="active"><a href="role.html"><i class="icon icon-list-alt"></i> <span>角色列表</span></a> </li>
-    </ul>
-</div>
-<div id="style-switcher"><i class="icon-arrow-left icon-white"></i>
-    <span>Style:</span>
-    <a href="#grey" style="background-color: #555555;border-color: #aaaaaa;"></a>
-    <a href="#light-blue" style="background-color: #8399b0;"></a>
-    <a href="#blue" style="background-color: #2D2F57;"></a>
-    <a href="#red" style="background-color: #673232;"></a>
-    <a href="#red-green" style="background-image: url('img/demo/red-green.png');background-repeat: no-repeat;"></a>
-</div>
-<div id="content">
-    <div id="content-header"><h1>角色管理</h1>
-    </div>
-    <div id="breadcrumb"><a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a
-            href="#" class="current">角色管理</a></div>
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <table id="roleTable"></table>
+	<div class="container">
+
+		<div class="panel-body" style="padding-bottom:0px;">
+			<div class="panel panel-default">
+				<div class="panel-heading">查询条件</div>
+				<div class="panel-body">
+					<form id="formSearch" class="form-horizontal">
+						<div class="form-group" style="margin-top:15px">
+							<label class="control-label col-sm-1" for="txt_search_departmentname">角色名称</label>
+							<div class="col-sm-3">
+								<input type="text" class="form-control" id="txt_search_departmentname">
+							</div>
+							<div class="col-sm-4" style="text-align:left;">
+								<button type="button" style="margin-left:50px" id="btn_query" class="btn btn-primary">查询</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div id="toolbar" class="btn-group">
+				<button id="btn_add" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>新增
+				</button>
+				<button id="btn_edit" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>修改
+				</button>
+				<button id="btn_delete" type="button" class="btn btn-default">
+					<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除
+				</button>
+			</div>
+			<table id="roleTable"></table>
+		</div>
 
 
+	</div>
+	<div class="footer">
+		<div class="container">
 
-
-
-        </div>
-        <div class="row-fluid">
-            <div id="footer" class="span12"> 2018 &copy; Tangdaijia.</div>
-        </div>
-    </div>
-</div>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.ui.custom.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.uniform.js"></script>
-<script src="js/select2.min.js"></script>
-<script src="js/unicorn.js"></script>
-<script src="resource/bootstrap-table/bootstrap-table.js"></script>
-<script src="resource/bootstrap-table/bootstrap-table.css"></script>
-<script src="resource/bootstrap-table/bootstrap-table-zh-CN.js"></script>
-<script src="js/role.js"></script>
-
+			<div class="clearfix"></div>
+			<div class="footer-bottom">
+			<p>Copyright &copy; 2018.Tang Daijia</p>
+		</div>
+		 <script type="text/javascript">
+			$(document).ready(function() {
+				$().UItoTop({ easingType: 'easeOutQuart' });
+			});
+		</script>
+		<a class="scroll" href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		 </div>
+	</div>
 </body>
 </html>

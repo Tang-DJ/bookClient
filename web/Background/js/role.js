@@ -8,159 +8,15 @@ $(function () {
     var oButtonInit = new ButtonInit();
     oButtonInit.Init();
 
-    //读取local
-    var storage=window.localStorage;
-
-    //删除
-    $("#btn_delete").click(function (){
-        var temp= $("#orderTable").bootstrapTable('getSelections');
-        if(temp.length<=0) {
-            alert("请至少选中一行")
-        } else {
-            var putTemp = new Array();
-            var content = "";
-            for(var i=0;i<temp.length;i++){
-                content += "ids="+temp[i].id+"&";
-            }
-            $.ajax({
-                type: "delete",
-                url: "/api/order/deleteByIds.do?"+ content,
-                /* data: {"ids": bb},*/
-                dataType: "json",
-                success: function(data) {
-                    if(data.status == "1"){
-                        alert("删除成功");
-                        window.location.reload();
-                    }
-                    else{
-                        alert("删除失败");
-                    }
-                },
-                error: function() {
-                    alert("连接失败");
-                }
-            });
-        }
-    });
-
-    //查询
-    $("#btn_query").click(function (){
-        oTable.Init();
-        /* $.ajax({
-             type: 'get',
-             url: "/api/order/get.do",
-             dataType: 'json',
-             data: {
-                 limit: 10,   //页面大小
-                 curPage: 1,  //页码
-                 nickName: $("#nickName").val(),
-                 goodsName:$("#findGoodsName").val()
-             },
-             success: function(data){
-                 console.log(data);
-                 $('#orderTable').bootstrapTable('removeAll');
-                 $('#orderTable').bootstrapTable('append', data.list);
-
-             }
-         })*/
-    });
-
-    //修改
-    $("#btn_edit").click(function(){
-        var temp= $("#orderTable").bootstrapTable('getSelections');
-        if(temp.length<=0){
-            alert("请至少选中一行");
-        }else if(temp.length==1){
-
-            $("#orderDetail").modal({show:true});
-
-            $.ajax({
-                type:"post",
-                url:"/city/findCityAll.do",
-                async:true,
-                dataType: "json",
-                success:function (data) {
-                    var str = "";
-                    for(var i = 0;i<data.data.length;i++){
-                        if(data.data[i].id == temp[0].addressId)
-                        {
-                            str+='<option value='+data.data[i].id+' selected>'+data.data[i].cityName+'</option>'
-                        }
-                        else{
-                            str+='<option value='+data.data[i].id+'>'+data.data[i].cityName+'</option>'
-                        }
-
-                    }
-                    $(".selectpickerEdit").html(str);
-
-                }
-            });
-
-            //初始化
-            var goodsName =  $("#goodsName");
-            var unitPrice = $("#unitPrice");
-            var needAmount = $("#needAmount");
-            var percentOfPass = $("#percentOfPass");
-            var timeLimit = $("#timeLimit");
-            var city = $(".selectpickerEdit");
-
-            goodsName.val(temp[0].goodsName);
-            unitPrice.val(temp[0].unitPrice);
-            needAmount.val(temp[0].needAmount);
-            percentOfPass.val(temp[0].percentOfPass);
-            timeLimit.val(temp[0].timeLimit);
-            city.val(temp[0].addressId);
-
-            //提交
-            $("#btn_submit").click(function () {
-                $.ajax({
-                    type: "put",
-                    url: '/api/order/update.do',
-                    data: {
-
-                        "id":storage["id"],
-                        "goodsName": goodsName.val(),
-                        "unitPrice": unitPrice.val(),
-                        "needAmount": needAmount.val(),
-                        "percentOfPass": percentOfPass.val(),
-                        "timeLimit": timeLimit.val(),
-                        "addressId":  city.val()
-                    },
-                    dataType: "json",
-                    success: function (data) {
-                        console.log(data);
-                        if (data.status == 1) {
-                            alert("修改成功！");
-                            $("#orderDetail").modal({show: false});
-                            window.location.reload();
-                        }
-                        else {
-                            alert("修改失败");
-                            $("#orderDetail").modal({show: false});
-                        }
-                    },
-                    error: function () {
-                        alert("连接失败");
-                        $("#orderDetail").modal({show: false});
-                    }
-                });
-
-            });
-        }else{
-            alert('最多只能选择一行');
-        }
-    });
-
 });
+
 
 var TableInit = function () {
     var oTableInit = new Object();
     //初始化Table
     oTableInit.Init = function () {
-        console.log("加载");
-
-        $('#orderTable').bootstrapTable({
-            url: '/api/order/get.do',         //请求后台的URL（*）
+        $('#roleTable').bootstrapTable({
+            url: '',         //请求后台的URL（*）
             method: 'get',                      //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
@@ -172,8 +28,8 @@ var TableInit = function () {
             sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
             pageNumber:1,                       //初始化加载第一页，默认第一页
             pageSize: 10,                       //每页的记录行数（*）
-            pageList: [10, 25, 50, 100],         //可供选择的每页的行数（*）
-            search: false,                       //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
+            pageList: [10, 25, 50, 100],        //可供选择的每页的行数（*）
+            search: true,                       //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
             strictSearch: true,
             showColumns: true,                  //是否显示所有的列
             showRefresh: true,                  //是否显示刷新按钮
@@ -184,59 +40,24 @@ var TableInit = function () {
             showToggle:true,                    //是否显示详细视图和列表视图的切换按钮
             cardView: false,                    //是否显示详细视图
             detailView: false,                   //是否显示父子表
-            responseHandler: function(result) {
-                return {
-                    //总页数,前面的key必须为"total"
-                    total : result.total,
-                    //行数据，前面的key要与之前设置的dataField的值一致.
-                    data : result.list
-                };
-            },
-            onLoadSuccess: function(data) {
-                $('#orderTable').bootstrapTable('removeAll');
-                $('#orderTable').bootstrapTable('append',data.data);
-            },
             columns: [{
                 checkbox: true
             }, {
                 field: 'id',
-                title: '订单编号'
+                title: '角色编号'
             }, {
-                field: 'userId',
-                title: '用户编号',
-                visible:false
+                field: 'name',
+                title: '角色名'
             }, {
-                field: 'nickName',
-                title: '用户名'
-            },{
-                field: 'goodsName',
-                title: '货物名'
+                field: 'createDate',
+                title: '创建日期'
             }, {
-                field: 'unitPrice',
-                title: '货物单价(元)'
+                field: 'updateDate',
+                title: '更新日期'
             }, {
-                field: 'needAmount',
-                title: '货物数量(个)'
-            }, {
-                field: 'percentOfPass',
-                title: '合格率(%)'
-            }, {
-                field: 'timeLimit',
-                title: '到货天数(天)'
-            }, {
-                field: 'cityName',
-                title: '地址'
-            },  {
-                field: 'tool',
-                title: '操作',
-                align: 'center',
-                formatter:function(value,row,index){
-                    var element =
-                        "<a class='edit' data-id='"+row.id +"'>选配</a> ";
-                    return element;
-                }
-            }
-            ]
+                field: 'value',
+                title: '键值'
+            } ]
         });
     };
 
@@ -244,9 +65,9 @@ var TableInit = function () {
     oTableInit.queryParams = function (params) {
         var temp = {   //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
             limit: params.limit,   //页面大小
-            curPage: params.offset+1,  //页码
-            nickName: $("#nickName").val(),
-            goodsName:$("#findGoodsName").val()
+            offset: params.offset,  //页码
+            departmentname: $("#txt_search_departmentname").val(),
+            statu: $("#txt_search_statu").val()
         };
         return temp;
     };

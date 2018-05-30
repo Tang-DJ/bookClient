@@ -1,277 +1,510 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Unicorn Admin</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
-    <link rel="stylesheet" href="css/fullcalendar.css"/>
-    <link rel="stylesheet" href="css/unicorn.main.css"/>
-    <link rel="stylesheet" href="css/unicorn.grey.css" class="skin-color"/>
-</head>
-<body>
-<div id="header">
-    <h1><a href="./dashboard.html">Unicorn Admin</a></h1>
-</div>
-<div id="search">
-    <input type="text" placeholder="Search here...">
-    <button type="submit" class="tip-right" title="Search">
-        <i class="icon-search icon-white"></i></button>
-</div>
-<div id="user-nav" class="navbar navbar-inverse">
-    <ul class="nav btn-group">
-        <li class="btn btn-inverse"><a title="" href="#">
-            <i class="icon icon-user"></i>
-            <span class="text">Profile</span></a></li>
-        <li class="btn btn-inverse dropdown" id="menu-messages">
-            <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle">
-                <i class="icon icon-envelope"></i>
-                <span class="text">Messages</span>
-                <span class="label label-important">5</span>
-                <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                <li><a class="sAdd" title="" href="#">new message</a></li>
-                <li><a class="sInbox" title="" href="#">inbox</a></li>
-                <li><a class="sOutbox" title="" href="#">outbox</a></li>
-                <li><a class="sTrash" title="" href="#">trash</a></li>
-            </ul>
-        </li>
-        <li class="btn btn-inverse"><a title="" href="#"><i class="icon icon-cog"></i> <span
-                class="text">Settings</span></a></li>
-        <li class="btn btn-inverse"><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span
-                class="text">Logout</span></a></li>
-    </ul>
-</div>
-<div id="sidebar"><a href="#" class="visible-phone"><i class="icon icon-home"></i> Dashboard</a>
-    <ul>
-        <li class="active"><a href="index.html"><i class="icon icon-home"></i> <span>Dashboard</span></a></li>
-        <li class="submenu"><a href="#"><i class="icon icon-th-list"></i> <span>Form elements</span> <span
-                class="label">3</span></a>
-            <ul>
-                <li><a href="form-common.html">Common elements</a></li>
-                <li><a href="form-validation.html">Validation</a></li>
-                <li><a href="form-wizard.html">Wizard</a></li>
-            </ul>
-        </li>
-        <li><a href="buttons.html"><i class="icon icon-tint"></i> <span>Buttons &amp; icons</span></a></li>
-        <li><a href="interface.html"><i class="icon icon-pencil"></i> <span>Interface elements</span></a></li>
-        <li><a href="tables.html"><i class="icon icon-th"></i> <span>Tables</span></a></li>
-        <li><a href="grid.html"><i class="icon icon-th-list"></i> <span>Grid Layout</span></a></li>
-        <li class="submenu"><a href="#"><i class="icon icon-file"></i> <span>Sample pages</span> <span
-                class="label">4</span></a>
-            <ul>
-                <li><a href="invoice.html">Invoice</a></li>
-                <li><a href="chat.html">Support chat</a></li>
-                <li><a href="calendar.html">Calendar</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </li>
-        <li><a href="charts.html"><i class="icon icon-signal"></i> <span>Charts &amp; graphs</span></a></li>
-        <li><a href="widgets.html"><i class="icon icon-inbox"></i> <span>Widgets</span></a></li>
-    </ul>
-</div>
-<div id="style-switcher"><i class="icon-arrow-left icon-white"></i> <span>Style:</span> <a href="#grey"
-                                                                                           style="background-color: #555555;border-color: #aaaaaa;"></a>
-    <a href="#light-blue" style="background-color: #8399b0;"></a> <a href="#blue"
-                                                                     style="background-color: #2D2F57;"></a> <a
-            href="#red" style="background-color: #673232;"></a> <a href="#red-green"
-                                                                   style="background-image: url('img/demo/red-green.png');background-repeat: no-repeat;"></a>
-</div>
-<div id="content">
-    <div id="content-header"><h1>Dashboard</h1>
-        <div class="btn-group"><a class="btn btn-large tip-bottom" title="Manage Files"><i class="icon-file"></i></a> <a
-                class="btn btn-large tip-bottom" title="Manage Users"><i class="icon-user"></i></a> <a
-                class="btn btn-large tip-bottom" title="Manage Comments"><i class="icon-comment"></i><span
-                class="label label-important">5</span></a> <a class="btn btn-large tip-bottom" title="Manage Orders"><i
-                class="icon-shopping-cart"></i></a></div>
-    </div>
-    <div id="breadcrumb"><a href="#" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a
-            href="#" class="current">Dashboard</a></div>
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="span12 center" style="text-align: center;">
-                <ul class="stat-boxes">
-                    <li class="popover-visits">
-                        <div class="left peity_bar_good"><span>2,4,9,7,12,10,12</span>+10%</div>
-                        <div class="right"><strong>36094</strong> Visits</div>
-                    </li>
-                    <li class="popover-users">
-                        <div class="left peity_bar_neutral"><span>20,15,18,14,10,9,9,9</span>0%</div>
-                        <div class="right"><strong>1433</strong> Users</div>
-                    </li>
-                    <li class="popover-orders">
-                        <div class="left peity_bar_bad"><span>3,5,9,7,12,20,10</span>-50%</div>
-                        <div class="right"><strong>8650</strong> Orders</div>
-                    </li>
-                    <li class="popover-tickets">
-                        <div class="left peity_line_good"><span>12,6,9,23,14,10,17</span>+70%</div>
-                        <div class="right"><strong>2968</strong> Tickets</div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="span12">
-                <div class="alert alert-info"> Welcome in the <strong>Unicorn Admin Theme</strong>. Don't forget to
-                    check all the pages! <a href="#" data-dismiss="alert" class="close">×</a></div>
-                <div class="widget-box">
-                    <div class="widget-title"><span class="icon"><i class="icon-signal"></i></span><h5>Site
-                        Statistics</h5>
-                        <div class="buttons"><a href="#" class="btn btn-mini"><i class="icon-refresh"></i> Update stats</a>
-                        </div>
-                    </div>
-                    <div class="widget-content">
-                        <div class="row-fluid">
-                            <div class="span4">
-                                <ul class="site-stats">
-                                    <li><i class="icon-user"></i> <strong>1433</strong>
-                                        <small>Total Users</small>
-                                    </li>
-                                    <li><i class="icon-arrow-right"></i> <strong>16</strong>
-                                        <small>New Users (last week)</small>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li><i class="icon-shopping-cart"></i> <strong>259</strong>
-                                        <small>Total Shop Items</small>
-                                    </li>
-                                    <li><i class="icon-tag"></i> <strong>8650</strong>
-                                        <small>Total Orders</small>
-                                    </li>
-                                    <li><i class="icon-repeat"></i> <strong>29</strong>
-                                        <small>Pending Orders</small>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="span8">
-                                <div class="chart"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="span6">
-                <div class="widget-box">
-                    <div class="widget-title"><span class="icon"><i class="icon-file"></i></span><h5>Recent Posts</h5>
-                        <span title="54 total posts" class="label label-info tip-left">54</span></div>
-                    <div class="widget-content nopadding">
-                        <ul class="recent-posts">
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av2.jpg">
-                                </div>
-                                <div class="article-post">
-                                    <span class="user-info"> By: neytiri on 2 Aug 2012, 09:27 AM, IP: 186.56.45.7 </span>
-                                    <p>
-                                        <a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>
-                                    <a href="#" class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Publish</a>
-                                    <a href="#" class="btn btn-danger btn-mini">Delete</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av3.jpg">
-                                </div>
-                                <div class="article-post"><span class="user-info"> By: john on on 24 Jun 2012, 04:12 PM, IP: 192.168.24.3 </span>
-                                    <p><a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>                                            <a href="#"
-                                                                                       class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Publish</a> <a href="#"
-                                                                                                class="btn btn-danger btn-mini">Delete</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av1.jpg">
-                                </div>
-                                <div class="article-post"><span class="user-info"> By: michelle on 22 Jun 2012, 02:44 PM, IP: 172.10.56.3 </span>
-                                    <p><a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>                                            <a href="#"
-                                                                                       class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Publish</a> <a href="#"
-                                                                                                class="btn btn-danger btn-mini">Delete</a>
-                                </div>
-                            </li>
-                            <li class="viewall"><a title="View all posts" class="tip-top" href="#"> + View all + </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="span6">
-                <div class="widget-box">
-                    <div class="widget-title"><span class="icon"><i class="icon-comment"></i></span><h5>Recent
-                        Comments</h5><span title="88 total comments" class="label label-info tip-left">88</span></div>
-                    <div class="widget-content nopadding">
-                        <ul class="recent-comments">
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av1.jpg">
-                                </div>
-                                <div class="comments"><span class="user-info"> User: michelle on IP: 172.10.56.3 </span>
-                                    <p><a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>                                            <a href="#"
-                                                                                       class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Approve</a> <a href="#"
-                                                                                                class="btn btn-warning btn-mini">Mark
-                                        as spam</a> <a href="#" class="btn btn-danger btn-mini">Delete</a></div>
-                            </li>
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av3.jpg">
-                                </div>
-                                <div class="comments"><span class="user-info"> User: john on IP: 192.168.24.3 </span>
-                                    <p><a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>                                            <a href="#"
-                                                                                       class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Approve</a>
-                                    <a href="#" class="btn btn-warning btn-mini">Mark as spam</a>
-                                    <a href="#" class="btn btn-danger btn-mini">Delete</a></div>
-                            </li>
-                            <li>
-                                <div class="user-thumb"><img width="40" height="40" alt="User" src="img/demo/av2.jpg">
-                                </div>
-                                <div class="comments"><span class="user-info"> User: neytiri on IP: 186.56.45.7 </span>
-                                    <p><a href="#">Vivamus sed auctor nibh congue, ligula vitae tempus pharetra...</a>
-                                    </p>
-                                    <a href="#" class="btn btn-primary btn-mini">Edit</a>
-                                    <a href="#" class="btn btn-success btn-mini">Approve</a>
-                                    <a href="#" class="btn btn-warning btn-mini">Mark as spam</a>
-                                    <a href="#" class="btn btn-danger btn-mini">Delete</a></div>
-                            </li>
-                            <li class="viewall"><a title="View all comments" class="tip-top" href="#"> + View all + </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div class="span12">
-                <div class="widget-box widget-calendar">
-                    <div class="widget-title"><span class="icon">
-                        <i class="icon-calendar"></i></span><h5>Calendar</h5>
-                    </div>
-                    <div class="widget-content nopadding">
-                        <div class="calendar"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row-fluid">
-            <div id="footer" class="span12"> 2012 - 2013 &copy; Unicorn Admin. Brought to you by <a
-                    href="https://wrapbootstrap.com/user/diablo9983">diablo9983</a></div>
-        </div>
-    </div>
-</div>
-<script src="js/excanvas.min.js"></script>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.ui.custom.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.flot.min.js"></script>
-<script src="js/jquery.flot.resize.min.js"></script>
-<script src="js/jquery.peity.min.js"></script>
-<script src="js/fullcalendar.min.js"></script>
-<script src="js/unicorn.js"></script>
-<script src="js/unicorn.dashboard.js"></script>
-</body>
-</html>
+<html>
+	<head>
+		<title>Home</title>
+	    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Payroll Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href='http://fonts.useso.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.useso.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.useso.com/css?family=Anton' rel='stylesheet' type='text/css'>
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+	    $(function () {
+	      $("#slider").responsiveSlides({
+	      	auto: true,
+	      	nav: true,
+	      	speed: 500,
+	        namespace: "callbacks",
+	        pager: true,
+	      });
+	    });
+		
+  </script>
+		<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		
+		</head>
+		<body>
+				<div class="header" id="home">
+				 <div class="container">	
+				   <div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				</div>
+					<div class="top-menu">
+						<span class="menu"> </span>
+						<ul>
+							<li><a class="active" href="index.html">home<lable><img src="images/line.png"></lable>
+								</a></li>
+							<li><a href="role.html">portfolio</a></li>
+							<li><a href="user.html">about</a></li>
+							<li><a href="book.html">contact</a></li>
+							<li><a class="last" href="records.html">blog</a></li>
+							</ul>
+							</div>
+							<!-- script-for-menu -->
+		<script>
+			$("span.menu").click(function(){
+				$(".top-menu ul").slideToggle("slow" , function(){
+				});
+			});
+		</script>
+		<!-- script-for-menu -->
+
+							<!-- start search-->
+				    <div class="search-box">
+					    <div id="sb-search" class="sb-search">
+							<form>
+								<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search"> </span>
+							</form>
+						</div>
+				    </div>
+					<!-- search-scripts -->
+					<script src="js/classie.js"></script>
+					<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+					<!-- //search-scripts -->
+				<div class="clearfix"></div>
+			</div>
+
+		<!-- script-for-nav -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(1000);
+						});
+					});
+				</script>
+		<!-- script-for-nav -->
+		<!-- /top-nav -->
+                   <div class="clearfix"></div>
+				</div>
+		 </div>
+		  <!-- header-section-ends --> 
+	<div class="header-slider" id="home">
+		<div class="slider">
+			<div class="callbacks_container">
+			  <ul class="rslides" id="slider">
+				<li>
+				  <img src="images/image1.jpg" alt="">
+				  <div class="caption">
+					<h3>good design is good business</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrice.</p>
+					<a class="morebtn" href="#">learn more</a>
+				  </div>
+				</li>
+				<li>
+				  <img src="images/image1.jpg" alt="">
+					<div class="caption">
+					<h3>good business is good design</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrice.</p>
+					<a class="morebtn" href="#">learn more</a>
+				  </p>
+				</li>
+				<li>
+				  <img src="images/image1.jpg" alt="">
+				  <div class="caption">
+				    <h3>web design is good design</h3>
+				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrice.</p>
+					<a class="morebtn" href="#">learn more</a>
+				  </div>
+				</li>
+				<li>
+				  <img src="images/image1.jpg" alt="">
+				  <div class="caption">
+					<h3>good design is good business</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrice.</p>
+					<a class="morebtn" href="#">learn more</a>
+				  </div>
+				</li>
+				<li>
+				  <img src="images/image1.jpg" alt="">
+				  <div class="caption">
+                     <h3>good business is good design</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrice.</p>
+					<a class="morebtn" href="#">learn more</a>
+				  </div>
+				</li>
+			  </ul>
+		  </div>
+	  </div>
+	 </div>
+	 </div>
+	 <!-- content-section-starts -->
+	 <div class="content">
+	              <div class="ourservice">
+						<div class="container">
+							<div class="ourservice-header">
+							<div class="ourservice-head">
+								<h3>our services</h3>
+								</div>
+								</div>
+								<div class="ourservice-grids">
+								    <div class="col-md-3 ourservice-grid text-center"> 
+								        <img src="images/img1.png" class="img-responsive" alt=""/>
+										<h3>web design</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris nec ipsum at lacus commado suscipit.<a href="#">details...</a></p>
+										</div>
+								    <div class="col-md-3 ourservice-grid text-center"> 
+	                                      <img src="images/img2.png" class="img-responsive" alt=""/>
+										 <h3>search optimization</h3>
+										 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris nec ipsum at lacus commado suscipit.<a href="#">details...</a></p>
+										</div>
+										<div class="col-md-3 ourservice-grid text-center">
+										<img src="images/img3.png" class="img-responsive" alt=""/>
+										<h3>online shop</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris nec ipsum at lacus commado suscipit.<a href="#">details...</a></p>
+										</div>
+										 <div class="col-md-3 ourservice-grid text-center">
+										<img src="images/img4.png" class="img-responsive" alt=""/>
+										<h3>social media</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris nec ipsum at lacus commado suscipit.<a href="#">details...</a></p>
+										</div>
+										<div class="clearfix"></div>
+									</div>
+								
+							</div>
+						</div>
+						<div class="ourportfoilo">
+							<div class="container">	
+							<div class="ourportfoilo-head">
+								<h3>our portfolio awesome</h3>
+								<a href="#">more works</a>
+								<div class="clearfix"></div> 
+								</div>
+								<div class="our-work-section" id="portfolio">
+									<div id="portfoliolist">
+					<div class="portfolio port-head card mix_all  wow bounceIn"  class="cbp-vm-image" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/b1.jpg" alt="" />
+						     <div class="b-wrapper"><div class="b-animate b-from-left    b-delay03 ">
+						  	<div class="animate-head">
+						     	<div class="animate-head-left">
+						     		<h4>Ipsum Amet Dolar Sit </h4>
+						     		<p>Lorem ipsum dolor sit amet, consectetur adip iscingelitmauris nec ipsum at lacus commodo. </p>
+						     	<img src="images/icon-eye.png" alt=""/>
+						     	</div>
+						        </div>
+						  	</div></a>
+		                </div>
+		                </div>
+		                <h4>Ipsum Amet Dolar Sit </h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Mauris nec ipsum at lacus commodo suscipit. </p>
+					</div>	
+					
+					<div class="portfolio port-head app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog1" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/b2.jpg" alt="" /><div class="b-wrapper"><div class="b-animate b-from-left    b-delay03 ">
+                              <div class="animate-head">
+						     	<div class="animate-head-left">
+						     		<h4>Ipsum Amet Dolar Sit </h4>
+						     		<p>Lorem ipsum dolor sit amet, consectetur adip iscingelitmauris nec ipsum at lacus commodo. </p>
+						     	<img src="images/icon-eye.png" alt=""/>
+						     	</div>
+						     	 </div>
+						  	</div></a>
+		                </div>
+		                </div>
+		                <h4>Lorem Ipsum</h4>
+		                <p>Lorem ipsum dolor sit amet, consectetur adipiscinglit.</p>
+					</div>					
+					<div class="portfolio port-head icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a href="#small-dialog3" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim">
+						     <img src="images/b3.jpg" alt="" /><div class="b-wrapper"><div class="b-animate b-from-left    b-delay03 ">
+						     	<div class="animate-head">
+						     	<div class="animate-head-left">
+						     		<h4>Ipsum Amet Dolar Sit </h4>
+						     		<p>Lorem ipsum dolor sit amet, consectetur adip iscingelitmauris nec ipsum at lacus commodo. </p>
+						     	<img src="images/icon-eye.png" alt=""/>
+						     	</div>
+						     	</div>		  
+						  	</div></a>
+		                </div>
+                  </div>
+                  <h4>Ipsum Amet Dolar Sit </h4>
+                  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elitmauris nec ipsum at lacus commodo suscipit.</p>
+					</div>
+					<div class="clearfix"></div>	
+					</div>
+						  	</div>
+		                
+						
+					 <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+		  
+			<!-- pop-up-box -->
+					  <script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+					<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!-- //pop-up-box -->
+			<div id="small-dialog" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/b1.jpg" alt="" />
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to book.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour. </p>
+						</div>
+					</div>
+					<div id="small-dialog1" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/b2.jpg" alt="" />
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to book.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						</div>
+					</div>
+					
+					<div id="small-dialog3" class="mfp-hide">
+						<div class="image-top">
+							<img src="images/b3.jpg" alt="" />
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to book.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						</div>
+					</div>
+					
+					<script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>		
+		<div class="clearfix"></div>
+	<!-- Work Ends Here -->
+  
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						
+						<div class="about">
+							<div class="container">
+								<div class="about-header">
+									<h3>what we offer</h3>
+									  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magnaa commodo. Ut eget eros mauris, ut cursus urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+									  </div>
+									  <div class="about-grids">
+									  	<div class="col-md-3 about-grid">
+									  		  <h3>web design</h3>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida mattis mi vitae tristique. Quisque vel purus tempor, tincidunt tellus ut .</p>
+                                                 <a href="#">details</a>
+                                                 </div>
+                                                 <div class="col-md-3 about-grid1">
+									  		  <h3>search optimization</h3>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida mattis mi vitae tristique. Quisque vel purus ittem portellus ut.<a href="#">details...</a></p>
+                                                 </div>
+                                                 <div class="col-md-3 about-grid">
+									  		  <h3>online shop</h3>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida mattis mi vitae tristique. Quisque vel purus tempor, tincidunt tellus ut.</p>
+                                                 <a href="#">details</a>
+                                                 </div>
+                                                 <div class="col-md-3 about-grid1">
+									  		  <h3>social media</h3>
+								                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida mattis mi vitae tristique. Quisque vel purus tempor, tincidu tellus ut.<a href="#">>>></a></p>
+                                                 </div>
+									  		<div class="clearfix"></div>
+									  	</div>
+								</div>
+							</div>
+							<div class="testimonials">
+								<div class="container">
+								  <div class="test-header">
+                                 	<h3>testimonials</h3>
+                                 	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit mauris necip at lacus commodo suscipit praesent sollicitudin enim vel mirhon"</p>
+											</div>
+								<div class="test-grids">
+									<h4>Jon Doe / CEO of LoremIpsum</h4>
+									<script defer src="js/jquery.flexslider.js"></script>
+                              <script type="text/javascript">
+								$(function(){
+								  SyntaxHighlighter.all();
+								});
+								$(window).load(function(){
+								  $('.flexslider1').flexslider({
+									animation: "slide",
+									start: function(slider){
+									  $('body').removeClass('loading');
+									}
+								  });
+								});
+							  </script>
+			<section class="slider">
+				<div class="flexslider1">
+					<ul class="slides">
+						<li>
+							<ul>
+								<li><a href="#"><img src="images/i1.png"></a></li>
+								<li><a href="#"><img src="images/i2.png"></a></li>
+								<li><a href="#"><img src="images/i3.png"></a></li>
+									</ul>
+						</li>
+						<li>
+							
+								<ul>
+									<li><a href="#"><img src="images/i2.png"></a></li>
+									<li><a href="#"><img src="images/i3.png"></a></li>
+									<li><a href="#"><img src="images/i1.png"></a></li>
+									
+								</ul>
+						</li>
+						<li>	
+							
+								<ul>
+									<li><a href="#"><img src="images/i3.png"></a></li>
+									<li><a href="#"><img src="images/i1.png"></a></li>
+									<li><a href="#"><img src="images/i2.png"></a></li>
+									
+								</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</section>
+			</div>
+		</div>
+	</div>
+	</div>
+				            <div class="footer">
+								<div class="container">
+									<div class="col-md-3 twitter-feeds">
+										<h3>twitter feeds</h3>
+										<div class="twitter-feed">
+										<p>Check out this great theme item</p>
+                                         <a href="#">http://h2design.taobao.com</a>
+                                          <p>2 weeks ago</p>
+                                          </div>
+                                          <div class="twitter-feed">
+                                          <p>Check out this great theme item</p>
+                                         <a href="#">http://h2design.taobao.com</a>
+                                          <p>2 weeks ago</p>
+                                          </div>
+                                          <div class="twitter-feed">
+                                          <p>Check out this great theme item</p>
+                                         <a href="#">http://h2design.taobao.com</a>
+                                          <p>2 weeks ago</p>
+									</div>
+									</div>
+									<div class="col-md-3 new-letter">
+										<h3>newsletter</h3>
+										<div class="new-letters">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magna a comm. Ut eget eros mauris, urna.</p>
+										</div>
+										<h4>Your Email Address</h4>
+										<form>
+										<input type="text">
+										<input type="submit" value="sign up">
+										</form>
+										</div>
+										<div class="col-md-3 recent-projects">
+											<h3>recent projects</h3>
+											
+												<div class="recent-project">
+											<div class="recent-img">
+												<img src="images/im1.jpg">
+												</div>
+												<div class="recent-text">
+													<p>Sketchy Business Card</p>
+                                                       <a href="#">http://h2design.taobao.com</a>
+                                                        <p>2 weeks ago</p>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+													<div class="recent-project">
+													<div class="recent-img">
+												<img src="images/im2.jpg">
+												</div>
+												<div class="recent-text">
+													<p>Message Boards in Nature</p>
+                                                     <a href="#">http://h2design.taobao.com</a>
+                                                      <p>2 weeks ago</p>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+													<div class="recent-project">
+													<div class="recent-img">
+												<img src="images/im3.jpg">
+												</div>
+												<div class="recent-text">
+													<p>Website Design Kit</p>
+													<a href="#">http://h2design.taobao.com</a>
+													<p>2 weeks ago</p>
+													</div>
+													<div class="clearfix"></div>
+													</div>
+												
+											</div>
+											<div class="col-md-3 contact">
+												<h3>contact</h3>
+												<ul>
+													<li><i class="phone"></i></li>
+														<li><p>1-000-000-0000</p>
+															<p>1-000-000-0000</p></li>
+												</ul>
+												<ul>
+													<li><i class="smartphone"></i></li>
+														<li><p>1-000-000-0000</p>
+															<p>1-000-000-0000</p></li>
+												</ul>
+												<ul>
+													<li><i class="message"></i></li>
+														<li><a href="mail-to:bcdefg@hijs.dfh">bcdefg@hijs.dfh</a>
+                                                            <a href="mail-to:fjashfaf@jkfs.ckd">fjashfaf@jkfs.ckd</a></li>
+												</ul>
+												</div>
+									<div class="clearfix"></div>
+									<div class="footer-bottom">
+				 		<p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://h2design.taobao.com/">氢设计</a></p>
+					</div>
+                 <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a class="scroll" href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+                 </div>
+			</div>
+	</body>
+	</html>
