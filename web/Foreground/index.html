@@ -1,14 +1,10 @@
 <!doctype html>
-        <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
-        <!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
-        <!--[if IE 8]>    <html class="lt-ie9" lang="en-US"> <![endif]-->
-        <!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
         <head>
                 <!-- META TAGS -->
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                <title>Knowledge Base Theme</title>
+                <title>图书馆</title>
 
                 <link rel="shortcut icon" href="images/favicon.png" />
 
@@ -20,12 +16,6 @@
                 <link rel='stylesheet' id='main-css-css'  href='css/main5152.css?ver=1.0' type='text/css' media='all' />
                 <link rel='stylesheet' id='custom-css-css'  href='css/custom5152.html?ver=1.0' type='text/css' media='all' />
 
-
-                <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-                <!--[if lt IE 9]>
-                <script src="js/html5.js"></script>
-                <![endif]-->
-
         </head>
 
         <body>
@@ -34,14 +24,12 @@
                 <div class="header-wrapper">
                         <header>
                                 <div class="container">
-
-
                                         <div class="logo-container">
                                                 <!-- Website Logo -->
-                                                <a href="index-2.html"  title="Knowledge Base Theme">
+                                                <a href="index.html"  title="Knowledge Base Theme">
                                                         <img src="images/logo.png" alt="Knowledge Base Theme">
                                                 </a>
-                                                <span class="tag-line">Premium WordPress Theme</span>
+                                                <span class="tag-line">图书馆</span>
                                         </div>
 
 
@@ -49,27 +37,11 @@
                                         <nav class="main-nav">
                                                 <div class="menu-top-menu-container">
                                                         <ul id="menu-top-menu" class="clearfix">
-                                                                <li class="current-menu-item"><a href="index-2.html">Home</a></li>
-                                                                <li><a href="home-categories-description.html">Home 2</a></li>
-                                                                <li><a href="home-categories-articles.html">Home 3</a></li>
-                                                                <li><a href="articles-list.html">Articles List</a></li>
-                                                                <li><a href="faq.html">FAQs</a></li>
-                                                                <li><a href="#">Skins</a>
-                                                                        <ul class="sub-menu">
-                                                                                <li><a href="blue-skin.html">Blue Skin</a></li>
-                                                                                <li><a href="green-skin.html">Green Skin</a></li>
-                                                                                <li><a href="red-skin.html">Red Skin</a></li>
-                                                                                <li><a href="index-2.html">Default Skin</a></li>
-                                                                        </ul>
-                                                                </li>
-                                                                <li><a href="#">More</a>
-                                                                        <ul class="sub-menu">
-                                                                                <li><a href="full-width.html">Full Width</a></li>
-                                                                                <li><a href="elements.html">Elements</a></li>
-                                                                                <li><a href="page.html">Sample Page</a></li>
-                                                                        </ul>
-                                                                </li>
-                                                                <li><a href="contact.html">Contact</a></li>
+                                                                <li class="current-menu-item"><a href="index.html">首页</a></li>
+                                                                <li><a href="home-categories-articles.html">图书推荐</a></li>
+                                                                <li><a href="home-categories-articles.html">个人主页</a></li>
+                                                                <li><a href="articles-list.html">借阅记录</a></li>
+                                                                <li><a href="../index.html">退出登录</a></li>
                                                         </ul>
                                                 </div>
                                         </nav>
@@ -83,12 +55,12 @@
                 <!-- Start of Search Wrapper -->
                 <div class="search-area-wrapper">
                         <div class="search-area container">
-                                <h3 class="search-header">Have a Question?</h3>
-                                <p class="search-tag-line">If you have any question you can ask below or enter what you are looking for!</p>
+                                <h3 class="search-header">寻找你想借阅的图书</h3>
+                                <p class="search-tag-line">在下方输入你想借阅的图书的关键字，即刻搜索！</p>
 
                                 <form id="search-form" class="search-form clearfix" method="get" action="#" autocomplete="off">
-                                        <input class="search-term required" type="text" id="s" name="s" placeholder="Type your search terms here" title="* Please enter a search term!" />
-                                        <input class="search-btn" type="submit" value="Search" />
+                                        <input class="search-term required" type="text" id="s" name="s" placeholder="请输入关键字" title="* Please enter a search term!" />
+                                        <input class="search-btn" type="submit" value="搜索" />
                                         <div id="search-error-container"></div>
                                 </form>
                         </div>
@@ -106,74 +78,62 @@
                                                 <!-- Basic Home Page Template -->
                                                 <div class="row separator">
                                                         <section class="span4 articles-list">
-                                                                <h3>Featured Articles</h3>
+                                                                <h3>最受欢迎图书</h3>
                                                                 <ul class="articles">
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
                                                                                 <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-                                                                                <span class="like-count">66</span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                                                                                <span class="like-count">15</span>
+                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="点击查看图书详情">Website Dev</a></span>
                                                                         </li>
-                                                                        <li class="article-entry video">
+                                                                        <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Meta Tags in WordPress</a></h4>
-                                                                                <span class="article-meta">23 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                                                                                <span class="like-count">8</span>
+                                                                                <span class="article-meta">23 Feb, 2013 in <a href="#" title="点击查看图书详情">Website Dev</a></span>
                                                                         </li>
-                                                                        <li class="article-entry image">
+                                                                        <li class="article-entry standard">
                                                                                 <h4><a href="single.html">WordPress in Your Language</a></h4>
-                                                                                <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-                                                                                <span class="like-count">6</span>
+                                                                                <span class="article-meta">22 Feb, 2013 in <a href="#" title="点击查看图书详情">Advanced Techniques</a></span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Know Your Sources</a></h4>
-                                                                                <span class="article-meta">22 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                                                                                <span class="like-count">2</span>
+                                                                                <span class="article-meta">22 Feb, 2013 in <a href="#" title="点击查看图书详情">Website Dev</a></span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Validating a Website</a></h4>
-                                                                                <span class="article-meta">21 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                                                                                <span class="like-count">3</span>
+                                                                                <span class="article-meta">21 Feb, 2013 in <a href="#" title="点击查看图书详情">Website Dev</a></span>
                                                                         </li>
                                                                 </ul>
                                                         </section>
 
 
                                                         <section class="span4 articles-list">
-                                                                <h3>Latest Articles</h3>
+                                                                <h3>最新上架图书</h3>
                                                                 <ul class="articles">
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Integrating WordPress with Your Website</a></h4>
-                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Server &amp; Database">Server &amp; Database</a></span>
-                                                                                <span class="like-count">66</span>
+                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="点击查看图书详情">Server &amp; Database</a></span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">Using Javascript</a></h4>
-                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Advanced Techniques">Advanced Techniques</a></span>
-                                                                                <span class="like-count">18</span>
+                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="点击查看图书详情">Advanced Techniques</a></span>
                                                                         </li>
                                                                         <li class="article-entry image">
                                                                                 <h4><a href="single.html">Using Images</a></h4>
-                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="View all posts in Designing in WordPress">Designing in WordPress</a></span>
-                                                                                <span class="like-count">7</span>
+                                                                                <span class="article-meta">25 Feb, 2013 in <a href="#" title="点击查看图书详情">Designing in WordPress</a></span>
                                                                         </li>
                                                                         <li class="article-entry video">
                                                                                 <h4><a href="single.html">Using Video</a></h4>
-                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in WordPress Plugins">WordPress Plugins</a></span>
-                                                                                <span class="like-count">7</span>
+                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="点击查看图书详情">WordPress Plugins</a></span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">WordPress Site Maintenance</a></h4>
-                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Website Dev">Website Dev</a></span>
-                                                                                <span class="like-count">15</span>
+                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="点击查看图书详情">Website Dev</a></span>
                                                                         </li>
                                                                         <li class="article-entry standard">
                                                                                 <h4><a href="single.html">WordPress CSS Information and Techniques</a></h4>
-                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="View all posts in Theme Development">Theme Development</a></span>
-                                                                                <span class="like-count">1</span>
+                                                                                <span class="article-meta">24 Feb, 2013 in <a href="#" title="点击查看图书详情">Theme Development</a></span>
                                                                         </li>
                                                                 </ul>
                                                         </section>
@@ -187,45 +147,45 @@
 
                                                 <section class="widget">
                                                         <div class="support-widget">
-                                                                <h3 class="title">Support</h3>
-                                                                <p class="intro">Need more support? If you did not found an answer, contact us for further help.</p>
+                                                                <h3 class="title">帮助</h3>
+                                                                <p class="intro">如果你需要帮助，请联系管理员为你提供更多帮助!</p>
                                                         </div>
                                                 </section>
 
                                                 <section class="widget">
                                                         <div class="quick-links-widget">
-                                                                <h3 class="title">Quick Links</h3>
+                                                                <h3 class="title">快速链接</h3>
                                                                 <ul id="menu-quick-links" class="menu clearfix">
-                                                                        <li><a href="index-2.html">Home</a></li>
-                                                                        <li><a href="articles-list.html">Articles List</a></li>
-                                                                        <li><a href="faq.html">FAQs</a></li>
-                                                                        <li><a href="contact.html">Contact</a></li>
+                                                                        <li><a href="index.html">图书库</a></li>
+                                                                        <li><a href="articles-list.html">图书推荐</a></li>
+                                                                        <li><a href="faq.html">个人主页</a></li>
+                                                                        <li><a href="contact.html">借阅记录</a></li>
                                                                 </ul>
                                                         </div>
                                                 </section>
 
                                                 <section class="widget">
-                                                        <h3 class="title">Tags</h3>
+                                                        <h3 class="title">图书标签</h3>
                                                         <div class="tagcloud">
-                                                                <a href="#" class="btn btn-mini">basic</a>
-                                                                <a href="#" class="btn btn-mini">beginner</a>
-                                                                <a href="#" class="btn btn-mini">blogging</a>
-                                                                <a href="#" class="btn btn-mini">colour</a>
-                                                                <a href="#" class="btn btn-mini">css</a>
-                                                                <a href="#" class="btn btn-mini">date</a>
-                                                                <a href="#" class="btn btn-mini">design</a>
-                                                                <a href="#" class="btn btn-mini">files</a>
-                                                                <a href="#" class="btn btn-mini">format</a>
-                                                                <a href="#" class="btn btn-mini">header</a>
-                                                                <a href="#" class="btn btn-mini">images</a>
-                                                                <a href="#" class="btn btn-mini">plugins</a>
-                                                                <a href="#" class="btn btn-mini">setting</a>
-                                                                <a href="#" class="btn btn-mini">templates</a>
-                                                                <a href="#" class="btn btn-mini">theme</a>
-                                                                <a href="#" class="btn btn-mini">time</a>
-                                                                <a href="#" class="btn btn-mini">videos</a>
-                                                                <a href="#" class="btn btn-mini">website</a>
-                                                                <a href="#" class="btn btn-mini">wordpress</a>
+                                                                <a href="#" class="btn btn-mini">文学</a>
+                                                                <a href="#" class="btn btn-mini">艺术</a>
+                                                                <a href="#" class="btn btn-mini">数学</a>
+                                                                <a href="#" class="btn btn-mini">金融</a>
+                                                                <a href="#" class="btn btn-mini">计算机</a>
+                                                                <a href="#" class="btn btn-mini">大数据</a>
+                                                                <a href="#" class="btn btn-mini">天文学</a>
+                                                                <a href="#" class="btn btn-mini">汽车</a>
+                                                                <a href="#" class="btn btn-mini">钢铁</a>
+                                                                <a href="#" class="btn btn-mini">经济</a>
+                                                                <a href="#" class="btn btn-mini">娱乐</a>
+                                                                <a href="#" class="btn btn-mini">投资</a>
+                                                                <a href="#" class="btn btn-mini">百合</a>
+                                                                <a href="#" class="btn btn-mini">成功学</a>
+                                                                <a href="#" class="btn btn-mini">情商</a>
+                                                                <a href="#" class="btn btn-mini">悬疑</a>
+                                                                <a href="#" class="btn btn-mini">修仙</a>
+                                                                <a href="#" class="btn btn-mini">爱情</a>
+                                                                <a href="#" class="btn btn-mini">云计算</a>
                                                         </div>
                                                 </section>
 
@@ -243,47 +203,37 @@
 
                                         <div class="span3">
                                                 <section class="widget">
-                                                        <h3 class="title">How it works</h3>
+                                                        <h3 class="title">图书馆</h3>
                                                         <div class="textwidget">
-                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
-                                                                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                                                                <p>提供最权威的图书资讯</p>
+                                                                <p>带来最便捷的图书借阅</p>
                                                         </div>
                                                 </section>
                                         </div>
 
                                         <div class="span3">
-                                                <section class="widget"><h3 class="title">Categories</h3>
+                                                <section class="widget"><h3 class="title">分类</h3>
                                                         <ul>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet,">Advanced Techniques</a> </li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet,">Designing in WordPress</a></li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet,">Server &amp; Database</a></li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet, ">Theme Development</a></li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet,">Website Dev</a></li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet,">WordPress for Beginners</a></li>
-                                                                <li><a href="#" title="Lorem ipsum dolor sit amet, ">WordPress Plugins</a></li>
+                                                                <li><a href="#" title="图书列表">图书库</a> </li>
+                                                                <li><a href="#" title="图书列表">图书推荐</a> </li>
+                                                                <li><a href="#" title="个人信息">个人信息</a></li>
+                                                                <li><a href="#" title="图书列表">图书列表</a> </li>
                                                         </ul>
                                                 </section>
                                         </div>
 
                                         <div class="span3">
                                                 <section class="widget">
-                                                        <h3 class="title">Latest Tweets</h3>
+                                                        <h3 class="title">最新讯息</h3>
                                                         <div id="twitter_update_list">
                                                                 <ul>
-                                                                        <li>No Tweets loaded !</li>
+                                                                        <li>本图书库包含上万本图书，你想要的都能借！</li>
                                                                 </ul>
                                                         </div>
                                                        
                                                 </section>
                                         </div>
 
-                                        <div class="span3">
-                                                <section class="widget">
-                                                        <h3 class="title">Flickr Photos</h3>
-                                                        <div class="flickr-photos" id="basicuse">
-                                                        </div>
-                                                </section>
-                                        </div>
 
                                 </div>
                         </div>
@@ -295,7 +245,7 @@
                                         <div class="row">
                                                 <div class="span6">
                                                         <p class="copyright">
-                                                                Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://h2design.taobao.com/">氢设计</a>
+                                                                Copyright &copy; Tang Daijia
                                                         </p>
                                                 </div>
                                                 <div class="span6">

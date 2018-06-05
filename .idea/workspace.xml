@@ -1,13 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/web/Foreground/index.html" line="216" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36da3fe1-38b2-4725-9cde-a2aa223f5abe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/loginStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/articles-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/articles-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/blue-skin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/blue-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/blue-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/devine-art.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/devine-art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/flickr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/footer-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/linked-in.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/linked-in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/rss.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/rss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/skype.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/skype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/stumble.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/stumble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/blue-skin5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/blue-skin5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/bootstrap5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/bootstrap5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/custom5152.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/custom5152.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/devine-art.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/devine-art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/faq-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/faq-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/faq-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/faq-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/flickr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/footer-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/green-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/green-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/linked-in.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/linked-in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/plus-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/plus-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/rss.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/rss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/skype.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/skype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/stumble.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/stumble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/green-skin5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/green-skin5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/main5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/main5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/devine-art.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/devine-art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/faq-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/faq-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/faq-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/faq-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/flickr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/footer-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/linked-in.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/linked-in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/plus-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/plus-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/red-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/red-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/rss.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/rss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/skype.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/skype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/stumble.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/stumble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/red-skin5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/red-skin5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/css/responsive5152.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/css/responsive5152.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/full-width.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/green-skin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/home-categories-articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/home-categories-articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/home-categories-description.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/home-categories-description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/Descr.WD3" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/Descr.WD3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/calendar-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/calendar-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/category-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/category-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/category-main-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/category-main-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/comment.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/comment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/devine-art.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/devine-art.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/faq-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/faq-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/faq-plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/faq-plus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/flickr.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/flickr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/footer-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/google.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/google.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/image-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/image-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/li-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/li-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/like-btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/like-btn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/like.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/like.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/linked-in.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/linked-in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/main-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/main-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/plus-minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/plus-minus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/question-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/question-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/question.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/question.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/quote.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/quote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/rss.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/rss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/scroll-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/scroll-top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/search-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/search-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/skype.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/skype.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/standard-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/standard-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/standard.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/standard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/stumble.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/stumble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/support.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/support.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/temp/Descr.WD3" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/temp/Descr.WD3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/temp/living-room-770x501.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/temp/living-room-770x501.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/temp/man.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/temp/man.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/video-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/video-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/images/video.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/images/video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/custom5152.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/custom5152.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jflickrfeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jflickrfeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.easing.1.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.easing.1.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.easing.1.34e44.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.easing.1.34e44.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.formd471.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.formd471.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.liveSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.liveSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.liveSearchd5f7.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.liveSearchd5f7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/jquery.validate.minfc6b.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/jquery.validate.minfc6b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/prettyphoto/jquery.prettyPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/prettyphoto/jquery.prettyPhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/prettyphoto/jquery.prettyPhotoaeb9.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/prettyphoto/jquery.prettyPhotoaeb9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/js/prettyphoto/prettyPhotoaeb9.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/js/prettyphoto/prettyPhotoaeb9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/red-skin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/241/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Foreground/single.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Background/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Background/js/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/js/role.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Background/records.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/records.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-table/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-table/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-table/bootstrap-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-table/bootstrap-table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/bootstrap-table/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/bootstrap-table/bootstrap-table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/js/bootstrap-paginator.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/js/bootstrap-paginator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Background/resource/js/md5.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/resource/js/md5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Background/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/role.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Background/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Background/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,58 +167,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="role.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Background/role.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Background/user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Background/js/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="86" column="2" lean-forward="true" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Background/book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="records.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Background/records.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            <state relative-caret-position="-315">
+              <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -78,17 +179,72 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Background/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="104" column="28" lean-forward="true" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+            <state relative-caret-position="-231">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="47" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="role.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="role.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Background/js/role.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="997">
+              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-categories-description.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/home-categories-description.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="68" selection-end-column="30" />
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-categories-articles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/home-categories-articles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/single.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/faq.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="articles-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/articles-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Foreground/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -114,7 +270,13 @@
       <find>角色列表</find>
       <find>input</find>
       <find>banner</find>
+      <find>home</find>
+      <find>search</find>
+      <find>index-2.html</find>
     </findStrings>
+    <replaceStrings>
+      <replace>index.html</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,7 +284,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/Unicorn Admin/index.html" />
         <option value="$PROJECT_DIR$/web/Background/tables.html" />
         <option value="$PROJECT_DIR$/web/Background/login.html" />
@@ -130,16 +291,19 @@
         <option value="$PROJECT_DIR$/web/Background/authority.html" />
         <option value="$PROJECT_DIR$/web/Background/css/unicorn.main.css" />
         <option value="$PROJECT_DIR$/web/Background/borrowRecords.html" />
-        <option value="$PROJECT_DIR$/web/Background/index.html" />
         <option value="$PROJECT_DIR$/web/Background/portfolio.html" />
         <option value="$PROJECT_DIR$/web/Background/contact.html" />
         <option value="$PROJECT_DIR$/web/Background/js/user.js" />
         <option value="$PROJECT_DIR$/web/Background/test.html" />
-        <option value="$PROJECT_DIR$/web/Background/book.html" />
-        <option value="$PROJECT_DIR$/web/Background/records.html" />
+        <option value="$PROJECT_DIR$/web/register.html" />
         <option value="$PROJECT_DIR$/web/Background/role.html" />
         <option value="$PROJECT_DIR$/web/Background/user.html" />
+        <option value="$PROJECT_DIR$/web/Background/index.html" />
+        <option value="$PROJECT_DIR$/web/Background/records.html" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/Background/book.html" />
         <option value="$PROJECT_DIR$/web/Background/js/role.js" />
+        <option value="$PROJECT_DIR$/web/Foreground/index.html" />
       </list>
     </option>
   </component>
@@ -149,9 +313,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
     <option name="width" value="1935" />
-    <option name="height" value="1045" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -161,7 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,26 +342,20 @@
               <item name="bookClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="bookClient" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="241" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bookClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bookClient" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="Background" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bookClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="bookClient" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Background" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="Foreground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -205,7 +363,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/360安全浏览器下载/bootstrap-table-examples-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wechat-book-manger" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -215,10 +373,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Volumes\Data\study\bookClient\web" />
+      <recent name="D:\Volumes\Data\study\bookClient\web\Foreground" />
       <recent name="D:\Volumes\Data\study\bookClient\web\Background" />
       <recent name="D:\Volumes\Data\study\bookClient\web\Background\js" />
       <recent name="D:\Volumes\Data\study\bookClient\web\Background\resource" />
-      <recent name="D:\Volumes\Data\study\bookClient\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,15 +469,16 @@
       <workItem from="1527649998963" duration="16331000" />
       <workItem from="1527729166366" duration="3088000" />
       <workItem from="1528042380461" duration="603000" />
-      <workItem from="1528076887857" duration="3610000" />
+      <workItem from="1528076887857" duration="6237000" />
+      <workItem from="1528165651653" duration="17446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30813000" />
+    <option name="totallyTimeSpent" value="50886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="0" width="1548" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -335,9 +495,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3295302" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.10384069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -349,7 +510,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.10407876" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,110 +519,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/Background/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/records.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/js/role.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="16" selection-end-line="86" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2226">
-          <caret line="106" selection-start-line="75" selection-start-column="8" selection-end-line="106" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/records.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="82" column="40" lean-forward="true" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="93" column="36" lean-forward="true" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/js/role.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="16" selection-end-line="86" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Background/tables.html" />
     <entry file="file://$PROJECT_DIR$/web/Background/role.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -480,13 +536,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Unicorn Admin/grid.html" />
     <entry file="file://$PROJECT_DIR$/web/Unicorn Admin/login.html" />
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Background/css/select2.css" />
     <entry file="file://$PROJECT_DIR$/web/Background/js/md5.js" />
     <entry file="file://$PROJECT_DIR$/web/Background/tables.html" />
@@ -549,36 +598,30 @@
     <entry file="file://$PROJECT_DIR$/web/Background/test.html" />
     <entry file="file://$PROJECT_DIR$/web/Background/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="86" column="2" lean-forward="true" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
+        <state relative-caret-position="1806">
+          <caret line="86" column="2" selection-start-line="86" selection-start-column="2" selection-end-line="86" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/241/index-2.html" />
+    <entry file="file://$PROJECT_DIR$/web/241/index.html" />
+    <entry file="file://$PROJECT_DIR$/web/resource/js/md5.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="104" column="28" lean-forward="true" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/loginStyle.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/Background/records.html">
+    <entry file="file://$PROJECT_DIR$/web/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        <state relative-caret-position="311">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Background/role.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="378">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -590,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/Background/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="109" column="18" lean-forward="true" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        <state relative-caret-position="559">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -600,10 +643,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#span#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Background/book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Background/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="47" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Background/records.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/blue-skin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="83" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/Background/js/role.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/single.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/faq.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/articles-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/home-categories-description.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="68" selection-end-column="30" />
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/home-categories-articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Foreground/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>

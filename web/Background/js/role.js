@@ -85,3 +85,28 @@ var ButtonInit = function () {
 
     return oInit;
 };
+
+
+var data = {
+data: [
+        {
+            "id": "001",
+            "name":"网站管理员",
+            "createDate":"123",
+            "updateDate":"1231",
+            "value":"1"},
+        {
+            "id": "002",
+            "name":"图书管理员",
+            "createDate":"123",
+            "updateDate":"1231",
+            "value":"2"},
+        {
+            "id": "003",
+            "name":"用户",
+            "createDate":"123",
+            "updateDate":"1231",
+            "value":"3"}
+        ],
+result:"sucess"
+};
